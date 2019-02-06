@@ -1,15 +1,17 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Responsive portfolio website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage":"https://matt3607.github.io/mattlopezdev",
+  "author": "Matt Lopez",
+  "license": "MIT",
+  "homepage": "https://matt3607.github.io/mattlopezdev",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
   }
 }
