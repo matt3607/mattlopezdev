@@ -194,9 +194,13 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  /*Defines width of column.*/
+  /*Work Photos*/ }
   .projects img {
     width: 100%;
+    /*height: 45%;*/
+    height: 45vh;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
